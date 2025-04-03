@@ -1,0 +1,46 @@
+        OOP - object oriented programming
+
+1. Enkapsulacja
+    Polega na ukrywaniu szczegółów implementacji i udostępnianiu
+    tylko niezbędnych interfejsów do manipulowania danymi
+
+    obj.getName();   obj.setName("name");
+
+
+2. Dziedziczenie
+    Pozwala na tworzenie nowych klas na podstawie już istniejących
+    realizowane za pomocą słowa kluczowego extends
+    by użyć zmiennej z klasy parent słowo kluczowe super.zmienna
+    by użyć zmiennej z klasy obecnej słowo this.zmienna
+
+
+3. Polifmorfizm - wielopostaciowość
+    Umożliwia różne zachowania tego samego interfejsu w zależności
+    od kontekstu.
+
+
+4. Elementy statyczne
+    W klasach mozemy tworzyc pola statyczne. Pole takie powiazane bedzie z klasa a
+    nobiektem tej klasy
+
+
+5. Przeciążanie metod - method Overloading
+    Pozwala na tworzenie metod o takich samych nazwach rozniacyhc sie zwracanymi
+    lub przyjmowanymi parametrami
+
+6. Nadpisanie / przesłonieęcie metody - method Override
+    Metoda klasy ma taką samą sygnaturę jak metoda po której dziedziczy
+    np. nadpisywanie metody toString() ktora domyslnie jest w klasie object
+    po ktorej dziedziczy kazda klasa
+
+7. Abstrakcja
+    Klasa abstrakcyjna - klasa, której obiektów nie można tworzyć. Klasy które po niej
+    dziedziczą mogą tworzyć instancje/obiekty
+    public abstract class NazwaKlasy {}
+
+8. Hermetyzacja / Enkapsulacja
+    Oznacza ona ukrywanie informacji. Możemy to zrobić poprzez modyfikatory dostępu
+    takie jak public private protected lub non-modifier. Enkapsulacja polega na
+    udostępnieniu klientowi tylko metod do wypisania tych danych lub jeżeli to konieczne
+    to także zmiany. Gettery, Settery
+
